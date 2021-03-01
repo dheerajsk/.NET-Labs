@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace BasicOfCSharp
@@ -10,8 +11,24 @@ namespace BasicOfCSharp
             //WriteText();
             //ReadText();
             WriteLine();
+            AppendLine();
             ReadLine();
             Delete();
+        }
+
+        private static void AppendLine()
+        {
+            string dir = Directory.GetCurrentDirectory();
+            string filename = dir + "\\dataLine.txt";
+            if (File.Exists(filename))
+            {
+                Console.WriteLine("File exists");
+                List<string> list = new List<string>();
+                list.Add("This is line five");
+                list.Add("This is line six");
+                list.Add("This is line seven");
+                File.AppendAllLines(filename, list);
+            }
         }
 
         private static void Delete()
