@@ -11,7 +11,8 @@ namespace BasicsOfCSharp
             Console.WriteLine("Hello World!");
             //PrimitiveTypes.Do();
             //FlowControl.Do();
-            DateProgram.Do();
+            //DateProgram.Do();
+            StringProgram.Do();
         }
     }
 }
