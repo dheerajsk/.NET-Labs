@@ -1,4 +1,5 @@
-﻿using BasicsOfCSharp.Types;
+﻿using BasicOfCSharp;
+using BasicsOfCSharp.Types;
 using System;
 
 namespace BasicsOfCSharp
@@ -8,7 +9,8 @@ namespace BasicsOfCSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            PrimitiveTypes.Do();
+            //PrimitiveTypes.Do();
+            FlowControl.Do();
         }
     }
 }
