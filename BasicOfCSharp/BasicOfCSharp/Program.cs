@@ -10,7 +10,8 @@ namespace BasicsOfCSharp
         {
             Console.WriteLine("Hello World!");
             //PrimitiveTypes.Do();
-            FlowControl.Do();
+            //FlowControl.Do();
+            DateProgram.Do();
         }
     }
 }
