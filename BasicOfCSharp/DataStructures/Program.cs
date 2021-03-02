@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataStructures.LinkedLists;
+using System;
 
 namespace DataStructures
 {
@@ -6,7 +7,9 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            Arrays.Do();
+            //Arrays.Do();
+            SingleLinkedList.Do();
         }
+
     }
 }
