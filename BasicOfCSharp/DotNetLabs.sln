@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicOfCSharp", "BasicOfCSharp\BasicOfCSharp.csproj", "{D7A07581-38C1-43E5-A2EF-45F89A008C82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{E9CC5FCB-E4CC-4F4B-AAC4-AC5166A0CBC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{E9CC5FCB-E4CC-4F4B-AAC4-AC5166A0CBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{F2E5EE7C-DFD6-4B40-A7B3-8038B71E281E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E9CC5FCB-E4CC-4F4B-AAC4-AC5166A0CBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9CC5FCB-E4CC-4F4B-AAC4-AC5166A0CBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9CC5FCB-E4CC-4F4B-AAC4-AC5166A0CBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E5EE7C-DFD6-4B40-A7B3-8038B71E281E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E5EE7C-DFD6-4B40-A7B3-8038B71E281E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E5EE7C-DFD6-4B40-A7B3-8038B71E281E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E5EE7C-DFD6-4B40-A7B3-8038B71E281E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
