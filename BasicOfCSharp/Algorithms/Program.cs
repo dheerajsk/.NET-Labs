@@ -1,4 +1,5 @@
 ﻿using Algorithms.Searching;
+using Algorithms.Sorting;
 using System;
 
 namespace Algorithms
@@ -8,7 +9,8 @@ namespace Algorithms
         static void Main(string[] args)
         {
             //LinearSearch.Do();
-            BinarySearch.Do();
+            //BinarySearch.Do();
+            BubbleSort.Do();
         }
     }
 }
