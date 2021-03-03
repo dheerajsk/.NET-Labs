@@ -10,7 +10,8 @@ namespace Algorithms
         {
             //LinearSearch.Do();
             //BinarySearch.Do();
-            BubbleSort.Do();
+            //BubbleSort.Do();
+            SelectionSort.Do();
         }
     }
 }
