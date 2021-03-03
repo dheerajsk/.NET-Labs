@@ -11,7 +11,8 @@ namespace DataStructures
             //Arrays.Do();
             //SingleLinkedList.Do();
             //DoubleLinkedList.Do();
-            StackProgram.Do();
+            //StackProgram.Do();
+            Queue.Do();
         }
 
     }
