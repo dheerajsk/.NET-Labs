@@ -12,7 +12,10 @@ namespace Algorithms
             //BinarySearch.Do();
             //BubbleSort.Do();
             //SelectionSort.Do();
-            InsertionSort.Do();
+            //InsertionSort.Do();
+            //RecursionProgram.Do();
+            //ShellSort.Do();
+            MergeSort.Do();
         }
     }
 }
