@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPSConcepts.Inheritance;
+using System;
 
 namespace OOPSConcepts
 {
@@ -6,7 +7,8 @@ namespace OOPSConcepts
     {
         static void Main(string[] args)
         {
-            StructProgram.Do();
+            //StructProgram.Do();
+            InheritanceProgram.Do();
         }
     }
 }
