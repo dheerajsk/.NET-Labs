@@ -25,6 +25,13 @@ namespace DesignPatterns.CreationalDesignPattern
             app2.SetName("App 2");
             Console.WriteLine(app2.getName());
             Console.WriteLine(app1.getName() + " == " + app2.getName());
+
+            Console.WriteLine("== Prototype Pattern ==");
+            BookingType seat1 = new Booking();
+            seat1.SetSeat("14b");
+            Console.WriteLine(seat1.GetSeat());
+            BookingType seat2 = seat1.Clone();
+            Console.WriteLine(seat2.GetSeat());
         }
     }
 }
