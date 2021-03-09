@@ -1,4 +1,5 @@
 ﻿using OOPSConcepts.Inheritance;
+using OOPSConcepts.Interface;
 using OOPSConcepts.Polymorphism;
 using System;
 
@@ -10,7 +11,8 @@ namespace OOPSConcepts
         {
             //StructProgram.Do();
             //InheritanceProgram.Do();
-            PolymorphismProgram.Do();
+            //PolymorphismProgram.Do();
+            InterfaceProgram.Do();
         }
     }
 }
