@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Structural_Patterns.Bridge;
+using DesignPatterns.Structural_Patterns.Decorator;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -28,6 +29,18 @@ namespace DesignPatterns.Structural_Patterns
             item3.SetValues("Item 3", 5, 57, 90);
             invoice.AddItem(item3);
             Console.WriteLine("Invoice Total=" + invoice.GetTotal());
+
+
+            Console.WriteLine(" == Decorator Pattern == ");
+            ClassTeacher t1 = new ClassTeacher();
+            t1.SetName("Teacher 1");
+            Console.WriteLine(t1.GetName() + " Designation = " + t1.GetDesignation());
+            ClassTeacher t2 = new ClassTeacher();
+            t2.SetName("Teacher 2");
+            Console.WriteLine(t2.GetName() + " Designation = " + t2.GetDesignation());
+            SeniorSchoolClassTeacher st1 = new SeniorSchoolClassTeacher();
+            st1.SetName("Senior Teacher 2");
+            Console.WriteLine(st1.GetName() + " Designation = " + st1.GetDesignation());
         }
     }
 }
