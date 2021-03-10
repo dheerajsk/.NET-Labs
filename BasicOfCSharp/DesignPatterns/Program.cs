@@ -1,4 +1,5 @@
-﻿using DesignPatterns.CreationalDesignPattern;
+﻿using DesignPatterns.Behaviroal_Patterns;
+using DesignPatterns.CreationalDesignPattern;
 using DesignPatterns.Structural_Patterns;
 using System;
 
@@ -9,7 +10,8 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             //CreationDPProgram.Do();
-            StructuralDPProgram.Do();
+            //StructuralDPProgram.Do();
+            BehavioralDPProgram.Do();
 
         }
     }

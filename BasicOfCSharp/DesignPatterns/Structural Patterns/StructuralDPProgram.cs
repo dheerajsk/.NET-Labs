@@ -38,9 +38,7 @@ namespace DesignPatterns.Structural_Patterns
             ClassTeacher t2 = new ClassTeacher();
             t2.SetName("Teacher 2");
             Console.WriteLine(t2.GetName() + " Designation = " + t2.GetDesignation());
-            SeniorSchoolClassTeacher st1 = new SeniorSchoolClassTeacher();
-            st1.SetName("Senior Teacher 2");
-            Console.WriteLine(st1.GetName() + " Designation = " + st1.GetDesignation());
+            
         }
     }
 }
