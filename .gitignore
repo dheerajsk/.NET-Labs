@@ -19,3 +19,8 @@
 /BasicOfCSharp/DesignPatterns/obj
 /BasicOfCSharp/NuGetDemo/bin/Debug/netcoreapp3.1
 /BasicOfCSharp/NuGetDemo/obj
+/BasicOfCSharp/NuGetServer/bin/Debug/netcoreapp3.1
+/BasicOfCSharp/packages
+/BasicOfCSharp/InternalNuGetServer/bin
+/BasicOfCSharp/InternalNuGetServer/obj/Debug
+/BasicOfCSharp/InternalNuGetServer/Packages

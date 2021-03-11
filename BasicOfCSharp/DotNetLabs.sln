@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetDemo", "NuGetDemo\NuGetDemo.csproj", "{B9D57C32-CD09-4392-B5FF-3228124427D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalNuGetServer", "InternalNuGetServer\InternalNuGetServer.csproj", "{1ADF217F-4E01-4BCC-92F0-B492B1F86D0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B9D57C32-CD09-4392-B5FF-3228124427D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9D57C32-CD09-4392-B5FF-3228124427D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9D57C32-CD09-4392-B5FF-3228124427D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADF217F-4E01-4BCC-92F0-B492B1F86D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADF217F-4E01-4BCC-92F0-B492B1F86D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADF217F-4E01-4BCC-92F0-B492B1F86D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADF217F-4E01-4BCC-92F0-B492B1F86D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
