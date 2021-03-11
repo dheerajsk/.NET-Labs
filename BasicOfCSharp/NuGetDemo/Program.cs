@@ -23,7 +23,10 @@ namespace NuGetDemo
             e.Name = "Xyz";
             e.Dept = "IT";
 
-            Console.WriteLine(JsonConvert.SerializeObject(e));
+            string json = JsonConvert.SerializeObject(e);
+            Console.WriteLine(json);
+            Employee parsed = JsonConvert.DeserializeObject<Employee>(json);
+            Console.WriteLine(parsed.Dept + parsed.ID + parsed.Name);
         }
     }
 }
